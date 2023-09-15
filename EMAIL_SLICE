@@ -1,0 +1,14 @@
+def main():
+    print("welcome to emial slicer :")
+    print("")
+
+    email_input = input("input your email :")
+    (username, Domaine) = email_input.split("@")
+    (Domaine, extraction) = Domaine.split(".")
+
+    print("username : ",username)
+    print("Domaine : ", Domaine)
+    print("extraction : ", extraction)
+
+while True:
+    main()
